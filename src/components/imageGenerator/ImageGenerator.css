@@ -1,0 +1,41 @@
+.ai-image-generator{
+display: flex;
+flex-direction: column;
+margin: auto;
+align-items: center;
+margin-top: 2rem;
+margin-bottom: 1rem;
+gap: 1rem;
+}
+
+h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+h1 span{
+    color: rgb(242, 127, 207);
+}
+
+.img-loading{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width:50%
+}
+
+.search-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.search-input{
+    width: 70%
+}
